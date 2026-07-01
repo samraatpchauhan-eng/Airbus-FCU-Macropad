@@ -1,0 +1,26 @@
+Volume Ctrl: 
+Up: KC_KB_VOLUME_UP
+Down: KC_KB_VOLUME_DOWN
+Mute: KC_KB_MUTE
+
+Brightness Ctrl:
+Up: KC_BRIGHTNESS_UP
+Down: KC_BRIGHTNESS_DOWN
+Sleep Toggle: KC_SYSTEM_SLEEP
+
+Zoom Ctrl:
+In (ctrl + "="): LCTL(KC_EQUAL)
+Out (ctrl + "-"): LCTL(KC_MINUS)
+Reset Zoom toggle (ctrl + 0): LCTL(KC_0)
+
+Horizontal Nav Ctrl ("MOUSEKEY_ENABLE = yes" in rules.mk):
+Scroll Left: KC_MS_WH_L
+Scroll Right: KC_MS_WH_R
+Pause/Play toggle: KC_MPLY
+
+Mute Mic (MS teams) (ctrl + shift + M): LCTL(LSFT(KC_M))
+Media Next Track: KC_MNXT
+Media Previous Track: KC_MPRV
+Pause/Play toggle: KC_MPLY
+Copy: KC_Copy
+Paste: KC_Paste 
