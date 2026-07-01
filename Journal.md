@@ -1,6 +1,6 @@
  - 6/28/2026
-    - Time Spent: 3 hrs 18 min
-    - General Overview: Started planning out and designing the PCB for the Airbus-FCU macropad. I utilized Fly-By-Wire's extensive diagram on their website as reference, and KiCad to design the pcb. The pcb will house 4 rotary encoders, and 6 cherry MX switches, which are all powered by a RP Pico. The firmware will most likely come from QMK MSYS, or MobiFlight, and utlizing the FBW A32NX API.
+    - Time Spent: 4 hrs 18 min
+    - General Overview: Started planning out and designing the PCB for the Airbus-FCU macropad. I utilized Fly-By-Wire's extensive diagram on their website as reference, and KiCad to design the pcb. The pcb will house 4 EC11 rotary encoders with a switch, and 6 cherry MX switches, which are all powered by a RP Pico. The firmware will most likely come from QMK MSYS, or MobiFlight, and utlizing the FBW A32NX API.
     - Challenges Faced: Had to spend alot of time remapping and ensuring that all the tracks for the PCB lay out properly. I also had to factor in hardware placement, ensuring it stays accurate to the real FCU. I initially also was planning to use the Epal Arduino mega 2560 pro mini clone, but ended up going into a rabbit hole trying to find and create a custom footprint that is accurate to the real board, so I ended up using the RP Pico 1.
   
     - Media:
@@ -15,6 +15,32 @@
       <img width="1061" height="410" alt="image" src="https://github.com/user-attachments/assets/a8b63807-6718-47cf-a067-5c4ba66fcda5" />
       Layout of the FCU for the airbus a320 (do note I won't be including the 2 displays due to the RP Pico limitations, and space in the case)
 <hr background color: #FFFFFF>
+
+- 6/29/2026
+    - Time Spent: 5 hrs
+    - General Overview: This was probably one of the harder, more creative days. I spent tody mainly formulating a case design, and how all the hardware will fit inside it. I also took today to conceptualize the function of each switch and encoder if it were to be used outside the flight sim, as a regular macropad. I decided to assign the rotary encoders to the following:
+      
+      - Volume / Mute Toggle
+      - Brightness / Sleep PC
+      - Zoom In-Out / Reset Zoom
+      - Horizontal Nav & Scrolling / Pause or Play Toggle
+        
+    - And I decided to assign the buttons to the following:
+      
+      - Mute Mic
+      - Media Next Track
+      - Media Previous Track
+      - Pause / Play Toggle
+      - Undo
+      - Redo
+        
+    - Challenges Faced: The hardest part of today was definitely figuring out the function of each input device, aswell as accurately mapping out each hole cutout for the top plate in Autodesk Fusion360 (goated CAD program btw). It was also pretty difficult getting the RP pico to fit in the case as I decided to leave a hole cutout to be able to view the board from the outside. I would say I spent the most time troubleshooting the physical fitment of the pcb, input devices and case design together.
+    - Media:
+      <img width="1763" height="1000" alt="image" src="https://github.com/user-attachments/assets/b1163ba6-d967-4c5f-b179-1acfdd1495e9" />
+      This is basically how the layout will work for the top plate, with the nice addition of a clear view of the RP Pico, with a neat engraving on top
+      <img width="2554" height="1256" alt="image" src="https://github.com/user-attachments/assets/de3c38a3-8ff3-42f6-9b13-3eb02327239b" />
+      This is the bottom section of the case. It's currently a plain box, but overtime I do plan to refine it into something more complete, and refined
+      <hr background color: #FFFFFF>
       
 
 
