@@ -50,7 +50,7 @@
     - Media:
       <img width="1010" height="655" alt="image" src="https://github.com/user-attachments/assets/411f49d5-cf92-4995-bfff-754aee9f67a7" />
       The new and improved UI for MobiFlight did introduce a bit of a learning curve, as they changed out alot of thing, such as where you can add boards, and the process of adding inputs and outputs
-      <img width="899" height="916" alt="image" src="https://github.com/user-attachments/assets/39978879-b270-4cfd-a697-446ad8d19bff" />
+      <img width="1536" height="859" alt="image" src="https://github.com/user-attachments/assets/9e75cd56-18ff-4896-8fbb-490e0b235e9c" />
       This is a general overview of the keybinds and keycodes. I did change the Undo and Redo buttons to Copy Paste, as that is more commonly used.
       
 <hr background color: #FFFFFF>
