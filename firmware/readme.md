@@ -1,7 +1,5 @@
 # airbus_fcu_macropad
 
-![airbus_fcu_macropad](imgur.com image replace me!)
-
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Samraat Chauhan](https://github.com/samraatpchauhan-eng)
