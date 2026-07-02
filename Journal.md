@@ -46,7 +46,7 @@
  
       This is the bottom section of the case. It's currently a plain box, but overtime I do plan to refine it into something more complete, and refined
       <img width="2554" height="1256" alt="image" src="https://github.com/user-attachments/assets/de3c38a3-8ff3-42f6-9b13-3eb02327239b" />
-      <hr background color: #FFFFFF>
+<hr background color: #FFFFFF>
 
  - 6/28/2026
     - Time Spent: 2 hrs 24 min
@@ -75,6 +75,23 @@
       Due to my laziness :) I had to go back and add the extra connection for EC8_B, and revise the track layout for the actual PCB 
       <img width="1307" height="719" alt="Screenshot 2026-07-01 225254" src="https://github.com/user-attachments/assets/ce547bfc-3172-4ae2-8597-baea0123e9bf" />
       <img width="1097" height="520" alt="Screenshot 2026-07-01 225231" src="https://github.com/user-attachments/assets/c4140c30-acaf-454b-8bd2-b9792061739b" />
+<hr background color: #FFFFFF>
+
+ - 7/2/2026
+    - Time Spent: 3 hrs 18 min
+    - General Overview: Last day! I spend today finalizing the case, and writing up the rest of my firmware, and compiling it to get the .uf2 file. I also spent alot of time gathering screenshots, data, and cad/pcb exports to put into my git repo. I also wrote up my .readme file, and obviously this journal entry. Thankfully I did have a few parts in my spare electronics bin to visualize what it could look like.
+    - Challenges Faced: There weren't many challenges today, except for some errors I encountered when compiling the firmware, as I kept using what I thought was the correct keycode naming scheme, but I was able to fix it later on.
+  
+    - Media:
+
+      Final Airbus-FCU render
+      <img width="3840" height="3072" alt="Airbus-FCU-Case_2026-Jul-02_07-37-07PM-000_CustomizedView3551822146" src="https://github.com/user-attachments/assets/fb866b2e-a0c6-40a3-a4b1-6cb606347914" />
+   
+      Case Design
+      <img width="3840" height="3072" alt="Airbus-FCU-Case_2026-Jul-02_07-24-20PM-000_CustomizedView7984582045" src="https://github.com/user-attachments/assets/572f363d-66e7-45f2-b43b-318594695e95" />
+  
+      Was able to find 4 ec11 encoders with knobs! :)
+      <img width="2268" height="4032" alt="PXL_20260702_192811092" src="https://github.com/user-attachments/assets/b50fb21d-ad18-47e1-9ed9-9dc498bea907" />
 <hr background color: #FFFFFF>
       
 
