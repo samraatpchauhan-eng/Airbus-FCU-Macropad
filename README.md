@@ -33,6 +33,8 @@ The underlying electronics were engineered in KiCad. The board features clean ro
 <img width="937" height="407" alt="Screenshot 2026-07-01 002244" src="https://github.com/user-attachments/assets/c0c4eac6-b3e0-4bae-b109-62e244645171" />
 
 ### PCB Layout Architecture
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?github=https://github.com/<samraatpchauhan-eng>/<Airbus-FCU-Macropad>/tree/main/pcb)
+
 *The routed printed circuit board design detailing trace paths, footprints, and physical alignment.*
 
 <img width="1406" height="659" alt="Screenshot 2026-07-01 002346" src="https://github.com/user-attachments/assets/437b5573-30ac-411f-953a-025da7ccbbf4" />
