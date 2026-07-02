@@ -6,12 +6,15 @@
     - Media:
       <img width="937" height="407" alt="image" src="https://github.com/user-attachments/assets/17c6f971-d8fe-46c7-9aa5-8c17a1f98289" />
       Schematic Diagram
+      
       <img width="1406" height="659" alt="image" src="https://github.com/user-attachments/assets/6acf2f57-6fcf-49ae-a4cc-3bfd1497a52e" />
       PCB diagram with tracks layed out without intersection (finally lol)
+      
       <img width="1182" height="920" alt="Screenshot 2026-07-01 002633" src="https://github.com/user-attachments/assets/3bf68a04-fe0b-4460-b1a4-8e1dd2b46ec6" />
       <img width="1300" height="698" alt="Screenshot 2026-07-01 002624" src="https://github.com/user-attachments/assets/d63d67f1-3058-4d86-90f6-2fb9b0ef2124" />
       <img width="1333" height="698" alt="image" src="https://github.com/user-attachments/assets/b69e3b0f-8a5c-4692-ac5e-22ac89f7406a" />
       Just a couple of 3d renderings of the PCB aswell :)
+      
       <img width="1061" height="410" alt="image" src="https://github.com/user-attachments/assets/a8b63807-6718-47cf-a067-5c4ba66fcda5" />
       Layout of the FCU for the airbus a320 (do note I won't be including the 2 displays due to the RP Pico limitations, and space in the case)
 <hr background color: #FFFFFF>
@@ -38,6 +41,7 @@
     - Media:
       <img width="1763" height="1000" alt="image" src="https://github.com/user-attachments/assets/b1163ba6-d967-4c5f-b179-1acfdd1495e9" />
       This is basically how the layout will work for the top plate, with the nice addition of a clear view of the RP Pico, with a neat engraving on top
+      
       <img width="2554" height="1256" alt="image" src="https://github.com/user-attachments/assets/de3c38a3-8ff3-42f6-9b13-3eb02327239b" />
       This is the bottom section of the case. It's currently a plain box, but overtime I do plan to refine it into something more complete, and refined
       <hr background color: #FFFFFF>
@@ -50,9 +54,25 @@
     - Media:
       <img width="1010" height="655" alt="image" src="https://github.com/user-attachments/assets/411f49d5-cf92-4995-bfff-754aee9f67a7" />
       The new and improved UI for MobiFlight did introduce a bit of a learning curve, as they changed out alot of thing, such as where you can add boards, and the process of adding inputs and outputs
-      <img width="1536" height="859" alt="image" src="https://github.com/user-attachments/assets/9e75cd56-18ff-4896-8fbb-490e0b235e9c" />
-      This is a general overview of the keybinds and keycodes. I did change the Undo and Redo buttons to Copy Paste, as that is more commonly used.
       
+      <img width="1536" height="859" alt="image" src="https://github.com/user-attachments/assets/9e75cd56-18ff-4896-8fbb-490e0b235e9c" />
+      This is a general overview of the keybinds and keycodes. I did change the Undo and Redo buttons to Copy Paste, as that is more commonly used
+<hr background color: #FFFFFF>
+
+- 7/1/2026
+    - Time Spent: 3 hrs 45 min
+    - General Overview: I jumped back into the grind today, but wasn't able to send too much time as I had a dentist appointment aswell. I did however finish up polishing the design of the case, and was able to get it looking complete, with nice rounded edges, and neat engravings to label each input device. I also started developing the firmware for the FCU, by utlizing QMK MSYS and VS.Code. I finished up the keyboard.json file, but am yet to complete the keymap.c file, as that will require careful matching, and good focus. I decided to hold that off for tomorrow morning.
+    - Challenges Faced: I made quiet a stupid mistake. As I was writing up the json file for the FCU firmware, I realized I had completely forgotten to map the "b" pin for one of the rotary encoders. I had to go back into KiCad, and a) Wire up the b pin to a digital pin on the board; and b) re-layout all the tracks in the PCB editor to account for the missing connection. I also faced a problem when creating the engravings in Fusion360. I tried to used the extrude tool to engrave the text which was made out of a "sketch" however the font I wanted to use had too many overlaps and gave geometry errors. I ended up going with a simpler font, to compensate.
+  
+    - Media:
+      <img width="2557" height="1255" alt="image" src="https://github.com/user-attachments/assets/ac691c9c-63f8-40cc-8bca-26cae7c23156" />
+      <img width="1493" height="920" alt="image" src="https://github.com/user-attachments/assets/f288a80d-0c2e-41cb-95ad-efee4ff97994" />
+      This is the finalized design for the case. I'm really happy with how it turned out, as it's detailed while maintaining a minimal asthetic that I always dig, and had nice subtle round edges all around
+      
+      <img width="1307" height="719" alt="Screenshot 2026-07-01 225254" src="https://github.com/user-attachments/assets/ce547bfc-3172-4ae2-8597-baea0123e9bf" />
+      <img width="1097" height="520" alt="Screenshot 2026-07-01 225231" src="https://github.com/user-attachments/assets/c4140c30-acaf-454b-8bd2-b9792061739b" />
+      Due to my laziness :) I had to go back and add the extra connection for EC8_B, and revise the track layout for the actualy PCB 
+
 <hr background color: #FFFFFF>
       
 
