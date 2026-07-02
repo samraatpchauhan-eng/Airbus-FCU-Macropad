@@ -1,0 +1,49 @@
+{
+    "manufacturer": "Samraat Chauhan",
+    "keyboard_name": "airbus_fcu_macropad",
+    "maintainer": "samraatpchauhan-eng",
+    "bootloader": "rp2040",
+    "url": "https://github.com/samraatpchauhan-eng/airbus_fcu_macropad",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP13", "GP14", "GP15", "GP16"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP6", "pin_b": "GP7"},
+            {"pin_a": "GP8", "pin_b": "GP9"},
+            {"pin_a": "GP10", "pin_b": "GP11"},
+            {"pin_a": "GP12", "pin_b": "GP17"}
+        ]
+    },
+    "processor": "RP2040",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0},
+                {"matrix": [0, 6], "x": 0, "y": 1},
+                {"matrix": [0, 7], "x": 1, "y": 1},
+                {"matrix": [0, 8], "x": 2, "y": 1},
+                {"matrix": [0, 9], "x": 3, "y": 1}
+            ]
+        }
+    }
+}
