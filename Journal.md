@@ -1,5 +1,5 @@
- - 6/28/2026
-    - Time Spent: 4 hrs 18 min
+- **6/28/2026**    
+- Time Spent: 4 hrs 18 min
     - General Overview: Started planning out and designing the PCB for the Airbus-FCU macropad. I utilized Fly-By-Wire's extensive diagram on their website as reference, and KiCad to design the pcb. The pcb will house 4 EC11 rotary encoders with a switch, and 6 cherry MX switches, which are all powered by a RP Pico. The firmware will most likely come from QMK MSYS, or MobiFlight, and utlizing the FBW A32NX API.
     - Challenges Faced: Had to spend alot of time remapping and ensuring that all the tracks for the PCB lay out properly. I also had to factor in hardware placement, ensuring it stays accurate to the real FCU. I initially also was planning to use the Epal Arduino mega 2560 pro mini clone, but ended up going into a rabbit hole trying to find and create a custom footprint that is accurate to the real board, so I ended up using the RP Pico 1.
   
@@ -20,7 +20,7 @@
       <img width="1061" height="410" alt="image" src="https://github.com/user-attachments/assets/a8b63807-6718-47cf-a067-5c4ba66fcda5" />
 <hr background color: #FFFFFF>
 
-- 6/30/2026
+- ** 6/30/2026**
     - Time Spent: 5 hrs
     - General Overview: This was probably one of the harder, more creative days. I spent tody mainly formulating a case design, and how all the hardware will fit inside it. I also took today to conceptualize the function of each switch and encoder if it were to be used outside the flight sim, as a regular macropad. I decided to assign the rotary encoders to the following:
       
@@ -48,7 +48,7 @@
       <img width="2554" height="1256" alt="image" src="https://github.com/user-attachments/assets/de3c38a3-8ff3-42f6-9b13-3eb02327239b" />
 <hr background color: #FFFFFF>
 
- - 6/28/2026
+ - **6/28/2026**
     - Time Spent: 2 hrs 24 min
     - General Overview: I decided to take today a little bit easy today, to avoid stressing out and losing my sanity from yesterday's design session. I researched alot upon how MobiFlight works with Microsoft Flight Simulator 2020 (this is the sim I have currently), and the process to develop firmware and flash it onto the RP board. I also went over QMK's API to gather which keystrokes to use. I also decided to utlize VS.Code as my text editor, as I'm most familiar with it, and it works well with Hackatime.
     - Challenges Faced: Not many, however I had to get used to MobiFlight's refreshed user interface. They moved away from the traditional text editor style, and towards a more user friendly mouse pointer interactive UI.
@@ -61,7 +61,7 @@
       <img width="1536" height="859" alt="image" src="https://github.com/user-attachments/assets/9e75cd56-18ff-4896-8fbb-490e0b235e9c" />
 <hr background color: #FFFFFF>
 
-- 7/1/2026
+- **7/1/2026**
     - Time Spent: 3 hrs 45 min
     - General Overview: I jumped back into the grind today, but wasn't able to send too much time as I had a dentist appointment aswell. I did however finish up polishing the design of the case, and was able to get it looking complete, with nice rounded edges, and neat engravings to label each input device. I also started developing the firmware for the FCU, by utlizing QMK MSYS and VS.Code. I finished up the keyboard.json file, but am yet to complete the keymap.c file, as that will require careful matching, and good focus. I decided to hold that off for tomorrow morning.
     - Challenges Faced: I made quiet a stupid mistake. As I was writing up the json file for the FCU firmware, I realized I had completely forgotten to map the "b" pin for one of the rotary encoders. I had to go back into KiCad, and a) Wire up the b pin to a digital pin on the board; and b) re-layout all the tracks in the PCB editor to account for the missing connection. I also faced a problem when creating the engravings in Fusion360. I tried to used the extrude tool to engrave the text which was made out of a "sketch" however the font I wanted to use had too many overlaps and gave geometry errors. I ended up going with a simpler font, to compensate.
@@ -77,7 +77,7 @@
       <img width="1097" height="520" alt="Screenshot 2026-07-01 225231" src="https://github.com/user-attachments/assets/c4140c30-acaf-454b-8bd2-b9792061739b" />
 <hr background color: #FFFFFF>
 
- - 7/2/2026
+ - **7/2/2026**
     - Time Spent: 3 hrs 18 min
     - General Overview: Last day! I spend today finalizing the case, and writing up the rest of my firmware, and compiling it to get the .uf2 file. I also spent alot of time gathering screenshots, data, and cad/pcb exports to put into my git repo. I also wrote up my .readme file, and obviously this journal entry. Thankfully I did have a few parts in my spare electronics bin to visualize what it could look like.
     - Challenges Faced: There weren't many challenges today, except for some errors I encountered when compiling the firmware, as I kept using what I thought was the correct keycode naming scheme for horizontal scrolling, but I was able to fix it later on.
@@ -96,6 +96,8 @@
       :( ugh the dreaded errors.........
       <img width="1508" height="726" alt="image" src="https://github.com/user-attachments/assets/bfe864de-71f5-429c-9619-cfaf94ad81cb" />
 <hr background color: #FFFFFF>
+
+TOTAL TIME SPENT ON THIS PROJECT: **18 Hours, 45 Minutes**
       
 
 
