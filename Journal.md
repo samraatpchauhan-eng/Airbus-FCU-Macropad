@@ -20,7 +20,7 @@
       <img width="1061" height="410" alt="image" src="https://github.com/user-attachments/assets/a8b63807-6718-47cf-a067-5c4ba66fcda5" />
 <hr background color: #FFFFFF>
 
-- ** 6/30/2026**
+- ** 6/29/2026**
     - Time Spent: 5 hrs
     - General Overview: This was probably one of the harder, more creative days. I spent tody mainly formulating a case design, and how all the hardware will fit inside it. I also took today to conceptualize the function of each switch and encoder if it were to be used outside the flight sim, as a regular macropad. I decided to assign the rotary encoders to the following:
       
@@ -48,7 +48,7 @@
       <img width="2554" height="1256" alt="image" src="https://github.com/user-attachments/assets/de3c38a3-8ff3-42f6-9b13-3eb02327239b" />
 <hr background color: #FFFFFF>
 
- - **6/28/2026**
+ - **6/30/2026**
     - Time Spent: 2 hrs 24 min
     - General Overview: I decided to take today a little bit easy today, to avoid stressing out and losing my sanity from yesterday's design session. I researched alot upon how MobiFlight works with Microsoft Flight Simulator 2020 (this is the sim I have currently), and the process to develop firmware and flash it onto the RP board. I also went over QMK's API to gather which keystrokes to use. I also decided to utlize VS.Code as my text editor, as I'm most familiar with it, and it works well with Hackatime.
     - Challenges Faced: Not many, however I had to get used to MobiFlight's refreshed user interface. They moved away from the traditional text editor style, and towards a more user friendly mouse pointer interactive UI.
