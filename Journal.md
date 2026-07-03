@@ -80,7 +80,7 @@
  - 7/2/2026
     - Time Spent: 3 hrs 18 min
     - General Overview: Last day! I spend today finalizing the case, and writing up the rest of my firmware, and compiling it to get the .uf2 file. I also spent alot of time gathering screenshots, data, and cad/pcb exports to put into my git repo. I also wrote up my .readme file, and obviously this journal entry. Thankfully I did have a few parts in my spare electronics bin to visualize what it could look like.
-    - Challenges Faced: There weren't many challenges today, except for some errors I encountered when compiling the firmware, as I kept using what I thought was the correct keycode naming scheme, but I was able to fix it later on.
+    - Challenges Faced: There weren't many challenges today, except for some errors I encountered when compiling the firmware, as I kept using what I thought was the correct keycode naming scheme for horizontal scrolling, but I was able to fix it later on.
   
     - Media:
 
@@ -92,6 +92,9 @@
   
       Was able to find 4 ec11 encoders with knobs! :)
       <img width="2268" height="4032" alt="PXL_20260702_192811092" src="https://github.com/user-attachments/assets/b50fb21d-ad18-47e1-9ed9-9dc498bea907" />
+
+      :( ugh the dreaded errors.........
+      <img width="1508" height="726" alt="image" src="https://github.com/user-attachments/assets/bfe864de-71f5-429c-9619-cfaf94ad81cb" />
 <hr background color: #FFFFFF>
       
 
