@@ -43,8 +43,8 @@ The underlying electronics were engineered in KiCad. The board features clean ro
 1. Disconnect the USB cable from the Flight Pad.
 2. Press and hold the physical **BOOT** button on the RP2040 controller board.
 3. Reconnect the USB cable while holding the button, then release it.
-4. A virtual drive named **RPI-RP2** will mount to your operating system.
-5. Drag and drop the `flight_pad_default.uf2` binary file directly onto the root of the drive.
+4. A virtual drive named will mount to your operating system.
+5. Drag and drop the `airbus_fcu_macropad_default.uf2` binary file directly onto the root of the drive.
 6. The device will automatically flash, reboot, and initialize as an operational HID keyboard device.
 
 ---
