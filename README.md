@@ -14,13 +14,12 @@ Airbus-FCU is a scaled replica of the Flight Control Unit found on Airbus aircra
 Everything fits together precisely using a layered enclosure design. The case includes structural mounting points for the PCB, plates, and components to ensure zero deck-flex during heavy use. Please note the keycaps used in these renders are generic .STEP models downloaded from the internet, and any standard MX keycap should work.
 
 ### Case Assembly & Fitment
-*An isometric 3D CAD visualization highlighting how the PCB, switches, encoders, and structural enclosure layers interface together seamlessly.*
+*A 3D CAD visualization highlighting how the PCB, switches, encoders, and structural enclosure layers interface together seamlessly.*
 
 <img width="3840" height="3072" alt="Airbus-FCU-Case_2026-Jul-02_07-37-07PM-000_CustomizedView3551822146" src="https://github.com/user-attachments/assets/b9493d78-ed8a-4e9b-a8c3-b9b7b3ca5344" />
 
 <img width="3840" height="3072" alt="Airbus-FCU-Case_2026-Jul-02_07-30-18PM-000_CustomizedView15151844348" src="https://github.com/user-attachments/assets/a56effec-dbf5-4439-b755-2c28c5b1ae35" />
 
-*Designed completely from scratch in Autodesk Fusion 360.*
 
 ---
 
@@ -28,7 +27,7 @@ Everything fits together precisely using a layered enclosure design. The case in
 The underlying electronics were engineered in KiCad. The board features clean routing paths optimized for the RP2040 pin configurations and a direct connection layout to handle both the key switches and rotary encoders.
 
 ### Schematic Design
-*The underlying circuit schematic mapping the switch routing, and quad encoder connections to the microcontroller.*
+*The circuit schematic mapping the switch routing, and quad encoder connections to the microcontroller.*
 
 <img width="937" height="407" alt="Screenshot 2026-07-01 002244" src="https://github.com/user-attachments/assets/c0c4eac6-b3e0-4bae-b109-62e244645171" />
 
