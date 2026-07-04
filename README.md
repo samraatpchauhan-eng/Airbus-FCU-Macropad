@@ -4,7 +4,7 @@ Airbus-FCU is a scaled replica of the Flight Control Unit found on Airbus aircra
 
 ## Features:
 * **Custom Layout:**  6 Cherry MX switches and 4 ec11 switched rotary encoders (10 Keys Total).
-* **Dual Encoders:** Dual EC11 Encoders for precise, media adjustments (like altitude, heading, or volume).
+* **Quad Encoders:** Quad EC11 Encoders for precise, media adjustments (like brightness, zooming, or volume).
 * **Realistic Design:** Engineered with a precise layout matching the real FCU found on the A320, and coordinating most commonly used inputs for an easy to use layout.
 * **RP2040 Power:** Driven by the RP2040 chip for rapid response times and effortless flashing.
 
