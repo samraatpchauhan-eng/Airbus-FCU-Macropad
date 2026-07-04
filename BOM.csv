@@ -1,9 +1,0 @@
-Item Name,Qty,Estimated Price (total) (USD),Item link,Notes
-Raspberry Pi Pico (rp2040) with headers,1,$11.39,RP Pico (rp2040),Make sure it is based on the rp2040 chip and comes with pre soldered headers to solder to the pcb
-Airbus-FCU custom PCB,1,$9.90,https://cart.jlcpcb.com/quote?spm=jlcpcb.Public.2006,N/A
-Cherry MX - Green,6,$19.50,Cherry Switches,"The lowest number of switches one can buy are 24, even though 6 are only needed"
-EC11 switched encoders with knobs,4,$8.39,EC11 Encoders,N/A
-Cherry MX - Keycaps,6,$8.99,Keycaps,"The lowest number of keycaps one can buy are 24, even though 6 are only needed"
-3mm screws,4,$5.99,Screws,N/A
-3d Printed Case (Top and Bottom),1,~2.00,STL files can be found in the CAD folder,"Unsure about exact cost of printing, as I don't have a 3d printer for reference"
-Total Price (USD):,$66.16,,,
