@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5094,7 +5094,7 @@
 		)
 	)
 	(gr_rect
-		(start 57 32.5)
+		(start 56 32.5)
 		(end 207.5 101)
 		(stroke
 			(width 0.05)
