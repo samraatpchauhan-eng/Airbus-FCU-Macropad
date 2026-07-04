@@ -25,7 +25,7 @@ Everything fits together precisely using a layered enclosure design. The case in
 ---
 
 ## PCB Design
-The underlying electronics were engineered in KiCad. The board features clean routing paths optimized for the RP2040 pin configurations and a solid matrix layout to handle both the key switches and rotary encoders.
+The underlying electronics were engineered in KiCad. The board features clean routing paths optimized for the RP2040 pin configurations and a direct connection layout to handle both the key switches and rotary encoders.
 
 ### Schematic Design
 *The underlying circuit schematic mapping the switch routing, and dual encoder connections to the microcontroller.*
