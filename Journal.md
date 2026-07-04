@@ -9,7 +9,7 @@
       <img width="937" height="407" alt="image" src="https://github.com/user-attachments/assets/17c6f971-d8fe-46c7-9aa5-8c17a1f98289" />
 
       PCB diagram with tracks layed out without intersection (finally lol)
-      <img width="1406" height="659" alt="image" src="https://github.com/user-attachments/assets/6acf2f57-6fcf-49ae-a4cc-3bfd1497a52e" />
+      <img width="2133" height="1045" alt="Screenshot 2026-07-04 104919" src="https://github.com/user-attachments/assets/4c9a42e1-c22d-4890-a3d2-50ae37dda449" />
   
       Just a couple of 3d renderings of the PCB aswell :)
       <img width="1182" height="920" alt="Screenshot 2026-07-01 002633" src="https://github.com/user-attachments/assets/3bf68a04-fe0b-4460-b1a4-8e1dd2b46ec6" />
