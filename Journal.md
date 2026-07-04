@@ -98,6 +98,8 @@
 <hr background color: #FFFFFF>
 
 TOTAL TIME SPENT ON THIS PROJECT: **18 Hours, 45 Minutes**
+
+<hr background color: #FFFFFF>
       
 
 
